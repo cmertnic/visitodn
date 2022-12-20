@@ -1,0 +1,362 @@
+* {box-sizing:border-box;margin: 0;
+  padding: 0;}
+body {
+ font-family: 'Alegreya', serif;
+}
+
+html, body {
+height: 100%; 
+}
+
+header, main, footer {   
+width: auto;
+margin: 0 auto;
+text-align: center;
+}
+#wrapper{
+min-height: 100%;
+height: auto !important;
+height: 100%;
+width: 100%;
+}
+footer{   
+margin: 1px auto 0;
+position: relative;
+height: 100px;
+background-image:url(../img/downn.png) ;  
+}
+.services_img {
+width: 240px;
+border: rgb(255, 255, 255);
+}
+.services_item {
+margin-right: 40px;
+ margin-left: 40px;
+width: 240px;
+float: left;
+}
+.services {
+padding: 35px;
+}
+.clearfix::after {
+content: "";
+display: table;
+clear: both;
+}
+.services_komand {
+width: 650px;
+text-align: center;
+line-height: 1.5;
+margin-left: auto;
+margin-right: auto;
+    
+}
+.ben {
+width: 100px;
+height: 100px;
+border-radius: 100px; /* Радиус скругления */
+border: 1px solid ; /* Параметры рамки */
+box-shadow: 0 0 7px rgb(253, 250, 250);
+}
+.pink {
+color: #cc138e;
+}
+.footer__block {
+display: inline-block;
+width:335px ;
+text-align: center;
+color: #ffffff;
+}
+.footer__block a {
+color: #ffffff;
+}
+.footer__icons {
+display: inline-block;
+width:auto ;
+margin-top:  30px;
+}
+.footer__img {
+width: 50px;
+text-transform: uppercase; 
+margin-left: 20px;
+margin-right: 20px;
+}
+.red {
+color:red;
+}
+.white {
+color: #fff;
+margin-left: 10px;
+}
+.vv { 
+text-transform: uppercase;
+font-weight: bold;
+font-size: 20px;
+}
+.body {
+font-family: 'Pacifico';
+}
+main{
+  background-image:url(../img/main.png) ;
+  margin-top: 0px;
+}
+#mainnav ul {
+list-style:none;
+margin: 0;
+padding-left: 0;
+}
+#mainnav li {
+display: inline;
+font-size: 35px;
+font-weight: bold;
+}
+#mainnav a { 
+text-decoration: none;
+color: white;
+margin: 30px;
+}
+#mainnav a:hover { 
+text-decoration: underline;
+}
+#mainnav li.active a {
+font-weight: bold;
+}
+header{
+background-image:url(../img/up.png) ;
+opacity: 0.9;
+position: absolute;
+}
+.logo{
+width: 50px;     
+}
+#contact-form1 input[type="submit"] {
+padding: 5px;
+padding-left: 15px;
+padding-right: 15px;
+background-color: #ffffff;
+font-style: italic;
+}    
+.form_item input[type="text"]{
+background-color: #ffffff;
+width: 20%;
+height: 10%;
+padding: 5px;
+}    
+.form_item input[type="email"]{
+background-color: #ffffff;
+width: 29%;
+height: 10%;
+padding: 5px;
+}   
+.form_item select{
+background-color: #ffffff;
+padding: 5px;
+}   
+#contact-form input[type="submit"]:hover {
+background-color: #ac7fda;
+}
+h1 {
+font-size: 2em;
+margin:  0;
+}
+.bonys{
+width: 500px;
+height: 400px;
+}
+.ma{
+margin-top: 5%;
+}
+.ma0{
+margin-top: 2%;
+}
+.ma1{
+margin-top: 10%;
+}
+.mi{
+margin-bottom: 10%;
+}
+.pr{
+width: 8%;
+}
+.pr1{
+width: 50%; 
+}
+.pv{
+padding-top:100px ;
+}
+.pv1{
+padding-bottom:100px ;
+}
+.pv2{
+padding-bottom:20px ; 
+}
+.mi4{
+margin-left: 70%;
+width: 100px;
+}
+.mi5{
+margin-bottom: 0px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 250, 250, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ff0606;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.navbar {
+  max-width: 1280px;
+ text-align: center;
+  display: flex;   /*сделали блок гибким*/
+  align-items: center;
+  margin-left: 20%;
+}
+.bl{
+  color: black;
+}
+.me{
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: black;
+  opacity: 0.8;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  min-height: 2em;
+  z-index: 5;
+}
+.mei{
+  width: 30%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+.gg{
+  margin-right: 3500px;
+}
+#zatemnenie {
+background: rgba(102, 102, 102, 0.5);
+width: auto;
+height: auto;
+position: absolute;
+display: none;
+z-index: 6;
+position: sticky;
+bottom: 0;
+padding-top: 1%;
+margin-left: 10%;
+margin-right: 10%;
+bottom: 0;  
+overflow: auto;  
+height: 50em;
+}
+#okno {
+width: 300px;
+height: 50px;
+text-align: center;
+border-radius: 10px;
+color: #0000cc;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+background: rgb(0, 0, 0);
+}
+#zatemnenie:target {display: block;}
+.close {
+color: #0000cc;
+padding: 0 12px;
+text-decoration: none;
+font-size: 14pt;
+cursor:pointer;
+padding-left: 60%;
+}
+.nm{
+  margin-top: 10%;
+}
